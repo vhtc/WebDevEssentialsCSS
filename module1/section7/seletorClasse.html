@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Seletor de elemento */
+        p {}
+
+        /* Seletor de classe */
+        .button {
+            background-color: blue;
+            color: white;
+        }
+
+        /* Seletor de id  */
+        #header {
+            font-size: 24px;
+            color: green;
+        }
+
+        /* Seletor de atributos */
+        [data-highlight] {
+            background-color: yellow;
+        }
+
+        /* Seletor exato de match selector */
+        [onclick='teste()']{
+            background-color: red;
+        }
+
+        /* Seletro de substring */
+        [class*='subs']{
+            color: red;
+        }
+
+        /* Seletor de prefixo */
+        [href^='https://']{
+            color: green;
+        }
+
+        /* Seletor de sufixo */
+        [src$=".png"]{
+            border: 1px solid black;
+            width: 200px;
+            height: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <p>Teste Elemento</p>
+    <button class="button">Teste Classe</button>
+    <header id="header">
+        Teste id
+    </header>
+    <span data-highlight="true">This is a sample text with highlighted numbers 123 and 456.</span>
+
+    <span data-highlight="false" onclick="teste()">This is a sample text with highlighted numbers 123 and 456.</span>
+
+    <button class="subs" >Substring</button>
+
+    <a href="https://google.com">Google.com</a>
+    <p>
+        <img src="victor.png" alt="">
+    </p>
+
+
+</body>
+
+</html>
