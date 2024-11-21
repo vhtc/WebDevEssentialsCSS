@@ -2,7 +2,7 @@
 Repo criado para o Curso Web Dev Essentials CSS do JS Institute para a certificação WDA
 
 ## Module 1 OK
-## Module 2 SECTION 5
+## Module 2 OK
 ## Module 3
 ## Module 4
 ## Module 5
