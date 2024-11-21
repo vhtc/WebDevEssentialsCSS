@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .inline-block-element {
+            display: inline-block;
+            background-color: lightcoral;
+            margin: 5px;
+            padding: 10px;
+            height: 40px;
+        }
+
+        .hidden-element {
+            visibility: hidden;
+        }
+        /* visibility: hidden é diferente do display:none, a visibilidade do elemento não impacta na estrutura do documento */
+    </style>
+</head>
+
+<body>
+    <p>This is <span class="inline-block-element">First Item</span>
+        and that is <span class="inline-block-element">Second Item</span>.</p>
+
+</body>
+
+</html>
+
+
+<!-- 
+
+manter a estrutura inline, mas poder utilizar o bloco
+
+
+Elementos de bloco (display: block) consomem toda a largura disponível, independentemente da largura real do conteúdo, e começam em uma nova linha. Eles podem ter largura e altura definidos, e as margens e o preenchimento empurrarão outros elementos para longe verticalmente e horizontalmente.
+
+Elementos em linha (exibir: inline), por outro lado, não comecem em uma nova linha. Eles só assumem a largura necessária. Você não pode definir largura e altura em elementos inline, e as margens verticais e preenchimentos não afetam os elementos em linha da mesma forma que fazem com os elementos de nível de bloco.
+
+-->
